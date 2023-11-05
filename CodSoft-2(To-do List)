@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="to-do.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div class="box">
+    <div class="todo-container">
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button id="addTask" onclick="addTask()">Add Task</button>
+    </div>
+    <div>
+        <ul id="taskList"></ul>
+    </div>
+</div>
+    <script src="to-do.js"></script>
+</body>
+</html>
