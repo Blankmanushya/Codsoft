@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./social-media-icons.css">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/Dev-1.png">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Services">Skills</a></li>
+                <li><a href="#Social">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="Home">
+        <p>
+        Hey There<br>
+        I am Japit,<br>
+        A Web Designer and Programmer <br>
+        </p>
+        <img class="profile" src="images/Dev-1.png">
+    </div> 
+    
+    
+    
+      
+
+    <div id="about">
+    <section id="about">
+        <h2>About Me<br>
+            <p>I have acquired and sharpened in
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis quia comm<br>
+            odi esse vitae, consequatur sequi, ad aliquid ab nihil nostrum <br>
+            voluptas dolor, totam ex exercitationem eius cupiditate labore
+        </p>
+        </h2>
+    </section>
+    </div>
+
+
+    <div id="portfolio">
+        <section id="portfolio-content">
+            <div class="portfolio-header">
+                <h3>Portfolio</h3>
+                <p>Projects Made</p>
+            </div>
+            <div class="project-images">
+                <img src="images/pr-2.png" alt="Project 1">
+                <img src="images/pr-2.png" alt="Project 2">
+            </div>
+            <button class="download-button" ><a href="Resume/LAB MANUAL PH111 (2).pdf" style="text-decoration: none; color: inherit;">Download Resume</a></button>
+        </section>
+    </div>
+    
+
+
+    <div id="Services">
+    <section id="Services">
+        <h3>Skills</h3>
+        <p>I am CSE Undergraduate with proficiency in Web Development<br>
+            I am proficient in coding languages that are Python And C<br>
+            Along with that learning and mastering the skills of Javascript along with backend Web Dev.<br>
+        </p>
+    </section>
+    </div>
+
+
+
+    <div class="Social">
+    <section id="Social">   
+        <h3 id="contact">Social</h3> 
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://github.com/Blankmanushya" target="blank"><i class="fab fa-github"></i></i></a></li>
+                <li><a href="https://www.instagram.com/?next=%2F" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/japit-singh-118b6a27b/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    </div>
+
+    <footer>
+       <div class="copyright">
+        &copy Japit's Portfolio 2023-27
+       </div>
+    </footer>
+</body>
+</html>
