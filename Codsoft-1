@@ -1,0 +1,226 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background: #14131a;
+}
+
+body{
+    background:#14131a;
+    /* background-image: url(images/background4.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover; */
+}
+
+
+
+.logo{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.top-nav {
+    margin-top: 5px;
+    color: #fff;
+    padding: 20px 0;
+    background-color: #222831;
+    font-size: large;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.pro-links{
+    list-style: none;
+}
+
+
+.Home{
+    display: flex;
+    height: 600px;
+    margin-top: 200px;
+    margin-right:30px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.profile{
+    height: 300px; 
+    border-radius: 15px;
+    opacity: 0.9;
+    margin-bottom: 200px;
+}
+
+
+#about{
+    display: flex;
+    font-size: small;
+    margin: 0 10px;
+    height: 600px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-left: 300px;
+    color: #fff;
+}
+
+#portfolio{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    height: 600px;
+    font-size: 20px ;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.project-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#Services{
+    margin-left: 300px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    height: 600px;
+    font-size: 20px ;
+    padding: 10px;
+    color: #fff;
+}
+
+#contact{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    margin-left:636px;
+    font-size: 20px ;
+    padding: 10px;
+    color: #fff;  
+    text-decoration: underline;  
+}
+
+#Social{
+    font-family: 'Roboto', sans-serif;
+}
+
+  .social-menu ul{
+    margin-left: 500px ;
+    margin-bottom: 100px;
+   
+
+    display: flex;
+  }
+
+  .social-menu ul li a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+  .social-menu ul li{
+      list-style: none;
+      margin: 0 15px;
+  }
+
+  .social-menu ul li .fab{
+      font-size: 30px;
+      line-height: 60px;
+      transition: .3s;
+      color: #000;
+  }
+
+  .social-menu ul li .fab:hover{
+      color: #fff;
+  }
+
+
+  .social-menu ul li a:hover{
+      transform: translate(0, -20%);
+  }
+
+  .social-menu ul li:nth-child(1) a:hover{
+      background-color: rgba(0, 0, 0, 0.829);
+  }
+  .social-menu ul li:nth-child(2) a:hover{
+      background-color: #E4405F;
+  }
+  .social-menu ul li:nth-child(3) a:hover{
+      background-color: #0077b5;
+  }
+
+
+.copyright{
+    font-family: 'Roboto', sans-serif;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    vertical-align: center;
+}
+
+
+.download-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:  #222831;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #8c96a5;
+}
