@@ -1,0 +1,56 @@
+let inputHistory = [];
+
+function appendToResult(value) {
+    const resultField = document.getElementById('result');
+    addToInputHistory(value); 
+    if (value === '*') {
+        resultField.value += 'x'; 
+    } else if (value === '%') {
+        resultField.value += '%';
+    } else {
+        resultField.value += value;
+    }
+}
+
+function calculateResult() {
+    const resultField = document.getElementById('result');
+    try {
+        let result = resultField.value.replace(/x/g, '*'); 
+        result = result.replace(/%/g, '*0.01'); 
+        resultField.value = eval(result);
+        inputHistory = []; 
+    } catch (error) {
+        resultField.value = 'Error';
+    }
+}
+
+function clearResult() {
+    const resultField = document.getElementById('result');
+    resultField.value = '';
+    inputHistory = [];
+}
+
+function undo() {
+    const resultField = document.getElementById('result');
+    const currentValue = resultField.value;
+    if (currentValue.length > 0) {
+        const newValue = currentValue.slice(0, -1); 
+        resultField.value = newValue;
+        inputHistory.pop(); 
+    }
+}
+
+function addToInputHistory(value) {
+    inputHistory.push(value);
+}
+
+function calculateLog() {
+    const resultField = document.getElementById('result');
+    try {
+        let result = resultField.value.replace(/%/g, '*0.01'); 
+        resultField.value = eval(result);
+        inputHistory = []; 
+    } catch (error) {
+        resultField.value = 'Error';
+    }
+}
